@@ -71,14 +71,5 @@ This C++ program simulates a simple lottery game where the computer generates fi
 
 ```
 
----
-
-Let me know if you want this enhanced with:
-- Input validation
-- Persistent scoring
-- GUI version (via C++ Qt or SFML)
-- A version in Python for learning comparison
-
-Would you like a detailed breakdown of what each function in your code does next?
 ```
 
