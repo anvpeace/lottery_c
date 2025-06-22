@@ -4,10 +4,7 @@
 #include <string>
 
 using namespace std;
-    /*
 
-    One function, named 'winningDigits', should have an array of 5 integers with a randomly generated number in the range of 1 through 19 for each element in the array.
-    */
 void winningDigits(int randNumArray[]){
     srand(time(0));
     
@@ -44,7 +41,7 @@ void checkDuplicate(int randonNumbers[], int userNumbers[]){
     for(int i = 0; i < SIZE; i++){
         for(int j = i +1; j < SIZE; j++){
             if(randonNumbers[i] == randonNumbers[j] || userNumbers[i] == userNumbers[j]){
-                cout<<"These numbers are duplicates. Try again!"<<endl;
+                cout<<"Duplicate random numbers were selected. Try again!"<<endl;
                         for(int n = 0; n <= 4; n++){
                             cout<<"Enter a number "<<(n + 1)<<": ";
                             cin>>userNumbers[n];
